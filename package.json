@@ -1,0 +1,40 @@
+{
+  "name": "cryptopy",
+  "version": "1.0.0",
+  "description": "all crypto-currencry current prices & exchange platforms",
+  "main": "start.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/delino12/cryptopy.git"
+  },
+  "keywords": [
+    "meanstack",
+    "blockchain",
+    "nodeJs",
+    "ExpressJs",
+    "&",
+    "MongoDB"
+  ],
+  "author": "Ekpoto Liberty Bernard",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/delino12/cryptopy/issues"
+  },
+  "homepage": "https://github.com/delino12/cryptopy#readme",
+  "dependencies": {
+    "blockchain": "^1.0.6",
+    "body-parser": "^1.18.2",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.3",
+    "dotenv": "^4.0.0",
+    "express": "^4.16.2",
+    "express-session": "^1.15.6",
+    "mongodb": "^3.0.1",
+    "mongoose": "^5.0.1",
+    "pug": "^2.0.0-rc.4",
+    "serve-favicon": "^2.4.5"
+  }
+}

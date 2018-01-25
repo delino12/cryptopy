@@ -1,0 +1,109 @@
+//- doctype html
+//if lt IE 7
+  html.no-js.lt-ie9.lt-ie8.lt-ie7(lang='')  
+//if IE 7
+  html.no-js.lt-ie9.lt-ie8(lang='')  
+//if IE 8
+  html.no-js.lt-ie9(lang='')  
+// [if gt IE 8] <!
+html.no-js(lang='')
+  // <![endif]
+  head
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge,chrome=1')
+    title Cryptopy
+    meta(name='description', content='')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    //- link(rel='apple-touch-icon', href='apple-touch-icon.png')
+    link(rel='stylesheet', href='/css/fonticons.css')
+    link(rel='stylesheet', href='/fonts/stylesheet.css')
+    link(rel='stylesheet', href='/css/font-awesome.min.css')
+    link(rel='stylesheet', href='/css/bootstrap.min.css')
+    //- // For Plugins external css
+    link(rel='stylesheet', href='/css/plugins.css')
+    //- // Theme custom css
+    link(rel='stylesheet', href='/css/style.css')
+    //- // Theme Responsive css
+    link(rel='stylesheet', href='assets/css/responsive.css')
+    script(src='/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js')
+  body(data-spy='scroll', data-target='.navbar-collapse')
+    //- //if lt IE 8
+      p.browserupgrade
+        | You are using an 
+        strong outdated
+        |  browser. Please 
+        a(href='http://browsehappy.com/') upgrade your browser
+        |  to improve your experience.
+    header#main_menu.header.navbar-fixed-top
+      .main_menu_bg
+        .container
+          .row
+            .nave_menu
+              nav#navmenu.navbar.navbar-default
+                .container-fluid
+                  //- // Brand and toggle get grouped for better mobile display
+                  .navbar-header
+                    button.navbar-toggle.collapsed(type='button', data-toggle='collapse', data-target='#bs-example-navbar-collapse-1', aria-expanded='false')
+                      span.sr-only Toggle navigation
+                      span.icon-bar
+                      span.icon-bar
+                      span.icon-bar
+                    a.navbar-brand(href='#home')
+                      img(src='/images/logo.png')
+                  // Collect the nav links, forms, and other content for toggling
+                  #bs-example-navbar-collapse-1.collapse.navbar-collapse
+                    ul.nav.navbar-nav.navbar-right
+                      li
+                        a(href='#home') Home
+                      li
+                        a(href='#service') Service
+                      li
+                        a(href='#portfolio') portfolio
+                      li
+                        a(href='#counter') Counter Us
+                      li
+                        a(href='#contact') Contact
+
+
+
+    
+    // End of header
+    footer#footer.footer
+      .container
+        .main_footer
+          .row
+            .col-sm-6.col-xs-12
+              .copyright_text
+                p.wow.fadeInRight(data-wow-duration='1s')
+                  | Made with 
+                  i.fa.fa-heart
+                  |  by 
+                  a(href='http://www.cryptopy.herokuapp.com') Cryptopy
+                  | 2018-2019. All Rights Reserved
+            .col-sm-6.col-xs-12
+              .footer_socail
+                a(href='')
+                  i.fa.fa-facebook
+                a(href='')
+                  i.fa.fa-twitter
+                a(href='')
+                  i.fa.fa-google-plus
+                a(href='')
+                  i.fa.fa-rss
+                a(href='')
+                  i.fa.fa-instagram
+                a(href='')
+                  i.fa.fa-dribbble
+                a(href='')
+                  i.fa.fa-behance
+    // START SCROLL TO TOP
+    .scrollup
+      a(href='#')
+        i.fa.fa-chevron-up
+    script(src='/js/vendor/jquery-1.11.2.min.js')
+    script(src='/js/vendor/bootstrap.min.js')
+    script(src='/js/jquery.easypiechart.min.js')
+    script(src='/js/jquery.mixitup.min.js')
+    script(src='/js/jquery.easing.1.3.js')
+    script(src='/js/plugins.js')
+    script(src='/js/main.js')
