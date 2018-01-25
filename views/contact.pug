@@ -1,0 +1,44 @@
+extends layout
+
+block content
+  section#contact.contact
+    .container
+      .row
+        .main_contact.sections
+          .head_title.text-center
+            h2 Contact
+            p Tell us more, we will like to know our clients feedback.
+          .row
+            .contact_contant
+              .col-sm-6.col-xs-12
+                h4 Leave A Message
+                .single_contant_left
+                  form#formid(action='/contact/message')
+                    // <div class="col-lg-8 col-md-8 col-sm-10 col-lg-offset-2 col-md-offset-2 col-sm-offset-1">
+                    .form-group
+                      input.form-control(type='text', name='name', placeholder='first name', required='')
+                    .form-group
+                      input.form-control(type='email', name='email', placeholder='Email', required='')
+                    .form-group
+                      textarea.form-control(name='message', rows='8', placeholder='Message')
+                    div
+                      input.btn.btn-primary(type='submit', value='Send')
+                    // </div>
+              .col-sm-5.col-sm-offset-1.col-xs-12
+                .single_message_right_info
+                  h4 Address :
+                  ul
+                    li
+                      a(href='')
+                        i.fa.fa-home
+                        |  Block D1, 1004 Housing & Estate Ltd Victoria Island Lagos
+                        |                                                     Lagos - 104421
+                    li
+                      a(href='')
+                        i.fa.fa-phone
+                        |  +234 09092367163
+                    li
+                      a(href='')
+                        i.fa.fa-envelope
+                        |  bernard.ekpoto@cavidel.com
+            // End of messsage contant

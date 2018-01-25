@@ -24,7 +24,7 @@ html.no-js(lang='')
     //- // Theme custom css
     link(rel='stylesheet', href='/css/style.css')
     //- // Theme Responsive css
-    link(rel='stylesheet', href='assets/css/responsive.css')
+    link(rel='stylesheet', href='/css/responsive.css')
     script(src='/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js')
   body(data-spy='scroll', data-target='.navbar-collapse')
     //- //if lt IE 8
@@ -54,19 +54,14 @@ html.no-js(lang='')
                   #bs-example-navbar-collapse-1.collapse.navbar-collapse
                     ul.nav.navbar-nav.navbar-right
                       li
-                        a(href='#home') Home
+                        a(href='/') Home
                       li
-                        a(href='#service') Service
+                        a(href='/currencies') Exchange 
                       li
-                        a(href='#portfolio') portfolio
+                        a(href='/price-alert') Price Alert
                       li
-                        a(href='#counter') Counter Us
-                      li
-                        a(href='#contact') Contact
-
-
-
-    
+                        a(href='/contact') Contact
+    block content
     // End of header
     footer#footer.footer
       .container
