@@ -4,7 +4,8 @@
   "description": "all crypto-currencry current prices & exchange platforms",
   "main": "start.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "start": "start"
   },
   "repository": {
     "type": "git",
