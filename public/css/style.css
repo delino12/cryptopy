@@ -633,6 +633,7 @@ input::-ms-input-placeholder {
 
 .service{
     background: #ffffff;
+    background-image: url(../images/homebg.jpg);
 }
 .main_service_area{}
 .main_service_area .signle_service_left{}
@@ -831,7 +832,8 @@ input::-ms-input-placeholder {
 
 /*contact section css*/
 .contact{
-    background: #232323;
+    /*background: #232323;*/
+    background-image: url(../images/homebg.jpg);
     color:#fff;
 }
 .contact .head_title h2{

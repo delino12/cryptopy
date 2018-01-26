@@ -1,27 +1,30 @@
 extends layout
 
 block content
-  section#home.home
+  section#service.service
     .overlay
       .container
         .row
-          .col-sm-12
-            .main_home_slider.text-center
-              .single_home_slider
-                .main_home.wow.fadeInUp(data-wow-duration='700ms')
-                  h1 Set a price alert, cryptopy will notify 
-                  p.subtitle We feed you the current crypto-currency exchange rate 
-                  .home_btn
-                    a.btn.btn-md(href='') Learn More
-              .single_home_slider
-                .main_home.wow.fadeInUp(data-wow-duration='700ms')
-                  h1 An amazing trading strategy
-                  p.subtitle Trade more with cryptopy fast notification system
-                  .home_btn
-                    a.btn.btn-md(href='') Learn More
-              .single_home_slider
-                .main_home.wow.fadeInUp(data-wow-duration='700ms')
-                  h1 Stay Focus, Stay Ahead & Stay Smart
-                  p.subtitle We provide you with a daily price feeds, Be your watch-dog with crypto
-                  .home_btn
-                    a.btn.btn-md(href='') Learn More
+          .main_counter.sections.text-center
+            .col-sm-10.col-sm-offset-1
+              .row
+                .col-sm-3.col-xs-12
+                  .single_counter_right
+                    i.lnr.lnr-users
+                    h2.statistic-counter 3,800
+                    p Exchange BTC
+                .col-sm-3.col-xs-12
+                  .single_counter_right
+                    i.fa.fa-line-chart
+                    h2.statistic-counter 4510
+                    p Exchange ETH
+                .col-sm-3.col-xs-12
+                  .single_counter_right
+                    i.lnr.lnr-heart
+                    h2.statistic-counter 2,800
+                    p Exchange Others
+                .col-sm-3.col-xs-12
+                  .single_counter_right
+                    i.lnr.lnr-gift
+                    h2.statistic-counter 5,500
+                    p Freebies Others

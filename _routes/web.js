@@ -6,5 +6,8 @@ let router = express.Router()
 let pages = require('../_controllers/pages-controller')
 
 router.get('/', pages.homePage)
+router.get('/currencies', pages.currency);
+router.get('/price-alert', pages.alert);
+router.get('/contact', pages.contact);
 
 module.exports = router;
