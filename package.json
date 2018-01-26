@@ -27,6 +27,7 @@
   "homepage": "https://github.com/delino12/cryptopy#readme",
   "dependencies": {
     "blockchain": "^1.0.6",
+    "blockchain.info": "^2.11.0",
     "body-parser": "^1.18.2",
     "connect-flash": "^0.1.1",
     "cookie-parser": "^1.4.3",
