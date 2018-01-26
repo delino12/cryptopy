@@ -75,10 +75,22 @@ html.no-js(lang='')
               .main_home_slider.text-center
                 .single_home_slider
                   .main_home.wow.fadeInUp(data-wow-duration='700ms')
-                    h1 Have an amazing business meeting
-                    p.subtitle Small business with big dreams
-                    .home_btn
-                      a.btn.btn-md(href='') Learn More
+                    table.table
+                      thead
+                        tr
+                          th(scope="col") Currency
+                          |       
+                          th(scope="col") 15m
+                          |       
+                          th(scope="col") Last
+                          |       
+                          th(scope="col") Buy
+                          |       
+                          th(scope="col") Sell
+                          |
+                          th(scope="col") Symbol
+                      |   
+                      tbody.list-prices
                 .single_home_slider
                   .main_home.wow.fadeInUp(data-wow-duration='700ms')
                     h1 Have an amazing business meeting
@@ -176,3 +188,4 @@ html.no-js(lang='')
     script(src='/js/jquery.easing.1.3.js')
     script(src='/js/plugins.js')
     script(src='/js/main.js')
+    script(src='/js/custom.js')
